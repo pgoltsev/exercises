@@ -5,7 +5,6 @@ def quicksort1(arr, start_idx=None, end_idx=None):
     :param arr: Array to sort.
     :param start_idx: Start index. By default is zero.
     :param end_idx: End index. By default is the last index of array.
-    :return: Sorted array.
     """
     if start_idx is None:
         start_idx = 0
@@ -46,7 +45,6 @@ def quicksort2(arr, start_idx=None, end_idx=None):
     :param arr: Array to sort.
     :param start_idx: Start index. By default is zero.
     :param end_idx: End index. By default is the last index of array.
-    :return: Sorted array.
     """
     if start_idx is None:
         start_idx = 0
