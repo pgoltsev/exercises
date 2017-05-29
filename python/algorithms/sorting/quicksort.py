@@ -71,9 +71,3 @@ def partition2(arr, start_idx, end_idx):
         j += 1
     arr[i + 1], arr[end_idx] = arr[end_idx], arr[i + 1]
     return i + 1
-
-
-if __name__ == '__main__':
-    import doctest
-
-    doctest.testmod()
