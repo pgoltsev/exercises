@@ -1,6 +1,6 @@
 import unittest
 
-from python.structures.singly_linked_list.singly_linked_list import Node, \
+from structures.singly_linked_list.singly_linked_list import Node, \
     SinglyLinkedList
 
 

@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from python.algorithms.sorting.quicksort import quicksort1, quicksort2
+from algorithms.sorting.quicksort import quicksort1, quicksort2
 
 
 class QuickSort1TestCase(TestCase):

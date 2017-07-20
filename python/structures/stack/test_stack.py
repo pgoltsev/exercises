@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from python.structures.stack.stack import Stack, StackIsEmpty, StackOverflow
+from structures.stack.stack import Stack, StackIsEmpty, StackOverflow
 
 
 class StackTestCase(TestCase):
