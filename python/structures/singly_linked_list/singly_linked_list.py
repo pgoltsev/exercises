@@ -16,7 +16,8 @@ class Node(object):
         self._next = value
 
     def __repr__(self):
-        return '%s(%r)' % (self.__class__.__name__, self.object)
+        return '%s(%r, %r)' % (self.__class__.__name__, self.object,
+                               self._next)
 
 
 class SinglyLinkedList(object):
