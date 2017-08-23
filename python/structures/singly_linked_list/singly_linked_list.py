@@ -1,7 +1,7 @@
 class Node(object):
-    def __init__(self, obj, next_node=None):
+    def __init__(self, obj):
         self._obj = obj
-        self._next = next_node
+        self._next = None
 
     @property
     def object(self):
@@ -16,8 +16,7 @@ class Node(object):
         self._next = value
 
     def __repr__(self):
-        return '%s(%r, %r)' % (self.__class__.__name__, self.object,
-                               self._next)
+        return '%s(%r)' % (self.__class__.__name__, self.object)
 
 
 class SinglyLinkedList(object):
