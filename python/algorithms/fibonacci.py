@@ -14,13 +14,10 @@ def fib1(amount):
     >>> list(fib1(9))
     [0, 1, 1, 2, 3, 5, 8, 13, 21]
     """
-    first = 0
-    second = 1
-    while 0 < amount:
+    first, second = 0, 1
+    for _ in range(amount):
         yield first
-        first, second = second, first
-        second += first
-        amount -= 1
+        first, second = second + first, first
 
 
 def fib2(amount):
@@ -39,13 +36,10 @@ def fib2(amount):
     >>> list(fib2(9))
     [0, 1, 1, 2, 3, 5, 8, 13, 21]
     """
-    first = 0
-    second = 1
-    while 0 < amount:
-        first, second = second, first
-        yield second
-        first += second
-        amount -= 1
+    first, second = 1, 0
+    for _ in range(amount):
+        first, second = second, first + second
+        yield first
 
 
 if __name__ == '__main__':
