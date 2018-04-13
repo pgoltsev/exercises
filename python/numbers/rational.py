@@ -1,5 +1,5 @@
 class Rational:
-    """Addition implementation of rational number.
+    """Rational number with addition.
 
     >>> Rational(1, 2) + Rational(1, 2) == Rational(2, 2)
     True
