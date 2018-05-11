@@ -1,7 +1,11 @@
+"""Implementations calculation of Fibonacci numbers."""
+
+
 def fib1(amount):
     """
-    Fibonacci generator example. The second variable is used to store
-    the result.
+    Calculate Fibonacci numbers.
+
+    The second variable is used to store the result.
     :param amount: Amount of numbers to produce.
     :return: Generator.
 
@@ -22,8 +26,9 @@ def fib1(amount):
 
 def fib2(amount):
     """
-    Fibonacci generator example. The first variable is used to store
-    the result.
+    Calculate Fibonacci numbers.
+
+    The first variable is used to store the result.
     :param amount: Amount of numbers to produce.
     :return: Generator.
 
